@@ -1,7 +1,7 @@
  
-import useProjects from '../hooks/use-projects.js';  
-import ProjectCard from '../components/ProjectCard.jsx'; 
-import PageDesign from '../components/PageDesign.jsx';
+import useProjects from '../hooks/use-projects';  
+import ProjectCard from '../components/ProjectCard'; 
+import PageDesign from '../components/PageDesign';
 import  '../index.css';   
 
 

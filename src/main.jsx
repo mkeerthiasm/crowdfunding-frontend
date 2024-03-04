@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage.jsx';  
 import ProjectPage from './pages/ProjectPage.jsx';
-import LoginPage from './pages/LoginPage.jsx';
+import LoginPage from './pages/LoginPage.jsx';  
 import AboutUs from './pages/AboutUs.jsx';
 import ContactUs from './pages/ContactUs.jsx';
-import RegisterPage from './pages/RegisterPage.jsx.jsx';
-import NewProjectPage from './pages/NewProjectPage.jsx';
-import EditProfilePage from './pages/EditProfilePage.jsx';
-import ProfilePage from './pages/ProfilePage.jsx';
+import RegisterPage from './pages/RegisterPage.jsx';
+
+
 import NavBar from './components/NavBar.jsx';
 import { AuthProvider } from './components/AuthProvider.jsx';
 

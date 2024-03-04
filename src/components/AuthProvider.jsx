@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+
 export const AuthContext = createContext();
 
 export const AuthProvider = (props) => {
@@ -7,7 +8,7 @@ export const AuthProvider = (props) => {
         user_id: Number(window.localStorage.getItem("user_id")),
     });
     return(
-        <AuthContext.Provider value={{auth, setAuth}}>
+        <AuthContext.Provider value={{ auth, setAuth }}>
             {props.children}
         </AuthContext.Provider>
     );
