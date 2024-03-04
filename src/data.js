@@ -1,10 +1,11 @@
+
 export const allProjects = [    
     {
         id: 1,
         title: 'Project 1',
         description: 'This is project 1',
         goal:100,
-        image: 'https://via.placeholder.com/150.jpg',
+        image: 'https://www.shutterstock.com/image-photo/beautiful-expressive-adorable-happy-cute-laughing-107460737',
         is_open:false,
         date_created:'2020-01-01',
         owner:1,

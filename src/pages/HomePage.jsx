@@ -1,9 +1,27 @@
+ 
+import useProjects from '../hooks/use-projects.js';  
+import ProjectCard from '../components/ProjectCard.jsx'; 
+import PageDesign from '../components/PageDesign.jsx';
+import  '../index.css';   
+
+
+
 function HomePage() {
+    const {projects} = useProjects();
+    const sortProjects = projects.slice().sort((a, b) => { new Date(b.created_at) - new Date(a.created_at) });
+
+
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>This is the home page</p>
-    </div>
+    <PageDesign>
+      <div className='flex flex-col items-center justify-center py-6'>
+        <h1 className='text-4xl font-bold text-center'>Projects</h1>
+        <div className='flex flex-wrap justify-center'>
+          {sortProjects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </div>
+      </div>
+    </PageDesign>
   );
 }   
 export default HomePage;
