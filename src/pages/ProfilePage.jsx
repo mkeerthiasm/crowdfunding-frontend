@@ -8,6 +8,7 @@ import EditProfile from "../components/EditProfile.jsx";
 import '../index.css';
 
 
+
 function ProfilePage() {
     const { auth } = useContext(AuthContext);
     const navigate = useNavigate();

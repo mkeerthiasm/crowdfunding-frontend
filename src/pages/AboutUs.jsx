@@ -25,7 +25,7 @@ function AboutUs() {
                 </div>
                 <br />
                 <div className="px-10 flex flex-col items-center">
-                    <img src="public/images/kindlyfund_logo.png" alt="Logo" className="w-1/2 " />
+                    <img src="/images/kindlyfund_logo.png" alt="Logo" className="w-1/2 " />
 
                 </div>
             </div>

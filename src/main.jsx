@@ -7,6 +7,10 @@ import LoginPage from './pages/LoginPage.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import RegisterPage from './pages/RegisterPage.jsx';
+import NewProjectPage from './pages/NewProjectPage.jsx';
+import EditProfilePage from './pages/EditProfilePage.jsx';
+import ProfilePage from './pages/ProfilePage.jsx';
+
 
 
 import NavBar from './components/NavBar.jsx';

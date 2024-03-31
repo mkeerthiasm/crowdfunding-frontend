@@ -23,7 +23,7 @@ function NewProject(){
         }));
     };
 
-    const handleSubmit = (event) =>{
+    const handleSubmit = async (event) =>{
         event.preventDefault();
         try{
             await postNewProject(NewProject);
